@@ -22,17 +22,17 @@ In addition, the following R packages were installed:
 
 # Configuring the Experimental Setting
 
-The experiment has several configurable parameters. These can be changed by editing the **scripts/experimental _ setting.r** file. The file contains the following options:
+The experiment has several configurable parameters. These can be changed by editing the **scripts/experimental_setting.r** file. The file contains the following options:
 
 Option | Description
 ------------ | -------------
-FILE _ THRESH  | Commits that touch more files than this value will be filtered out.
-CHURN _ THRESH | Commits that touch more lines than this value will be filtered out.
-PROJECT _ NAME | The name of the project that should be loaded from the **data** folder.
-STRATA _ PER _ YEAR | A parameter to control the number of strata that should be created in the JIT data per year. Value of 2 (six months) and 4 (three months) are shown in the paper.
-METRICS _ FAMILIES | A list of families of metrics that are included in the fits of the JIT models.
+FILE_THRESH  | Commits that touch more files than this value will be filtered out.
+CHURN_THRESH | Commits that touch more lines than this value will be filtered out.
+PROJECT_NAME | The name of the project that should be loaded from the **data** folder.
+STRATA_PER_YEAR | A parameter to control the number of strata that should be created in the JIT data per year. Value of 2 (six months) and 4 (three months) are shown in the paper.
+METRICS_FAMILIES | A list of families of metrics that are included in the fits of the JIT models.
 FITTOOL | The function that is used to fit the models.
-FITTOOL _ PARMS | The parameters to be included with the FITTOOL function when it is called.
+FITTOOL_PARMS | The parameters to be included with the FITTOOL function when it is called.
 SPL | The function that should be used to fit splines in non-linear fits. Set to a NOOP function (included in the template file) if you want to (a) turn off nonlinear fits; or (b) try another FITTOOL that does not support splining.
 
 # Executing the Package
