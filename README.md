@@ -46,11 +46,13 @@ Rscript scripts/replicate.r
 If you do make use of the dataset, please reference the original paper:
 
 ```bibtex
-@article{mcintosh2017tse,
+@article{mcintosh2018tse,
   Author = {Shane McIntosh and Yasutaka Kamei},
   Title = {{Are Fix-Inducing Changes a Moving Target? A Longitudinal Case Study of Just-In-Time Defect Prediction}},
-  Year = {2017},
+  Year = {2018},
+  Volume = {44},
+  Number = {5},
   Journal = {IEEE Transactions on Software Engineering},
-  Pages = {To appear}
+  Pages = {412--428}
 }
 ```
